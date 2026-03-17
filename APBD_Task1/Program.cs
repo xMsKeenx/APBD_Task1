@@ -26,7 +26,7 @@
                 double average = StatisticsHelper.CalculateAverage(numbers);
 
                 Console.WriteLine("Numbers loaded successfully.");
-                Console.WriteLine($"Average: {average}");
+                Console.WriteLine($"Calculated average is: {average}");
             }
             catch (FormatException)
             {
