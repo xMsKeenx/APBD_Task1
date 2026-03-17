@@ -32,6 +32,7 @@
             {
                 Console.WriteLine("Invalid input. Please enter only integers.");
             }
+            Console.WriteLine("Processing completed.");
         }
     }
 }
