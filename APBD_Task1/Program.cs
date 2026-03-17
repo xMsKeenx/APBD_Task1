@@ -25,7 +25,7 @@
 
                 double average = StatisticsHelper.CalculateAverage(numbers);
 
-                Console.WriteLine("Numbers loaded successfully.");
+                Console.WriteLine("Numbers loaded successfully from feature branch.");
                 Console.WriteLine($"Calculated average is: {average}");
             }
             catch (FormatException)
