@@ -1,12 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace APBD_Task1
+﻿namespace APBD_Task1
 {
-    internal class StatisticsHelper
+    public static class StatisticsHelper
     {
+        public static double CalculateAverage(int[] values)
+        {
+            int sum = 0;
+
+            for (int i = 0; i < values.Length; i++)
+            {
+                sum += values[i];
+            }
+
+            return (double)sum / values.Length;
+        }
     }
 }
